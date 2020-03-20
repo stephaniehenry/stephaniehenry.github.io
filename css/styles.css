@@ -1,7 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Gochi+Hand|Handlee|Patrick+Hand|Shadows+Into+Light+Two&display=swap');
+
+/* font-family: 'Patrick Hand', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Shadows Into Light Two', cursive; */
+
 body {
-    background: rgb(255, 221, 240);
-}
-h1 {
-    color: purple;
+  background: #C1CAD6;
 }
 
+header {
+/*   border: solid red; */
+  margin: 0 auto;
+  width: 90%;
+  background: #586994;
+ /*   display: flex;
+  flex-wrap: wrap; */
+ }
+
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  font-size: 3em;
+/*   border: solid green; */
+  background: #FEFDFF;
+  padding: 25px 0px;
+}
+
+.me {
+  border-radius: 1000px;
+  vertical-align: middle;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
+.about {
+  margin: 10px 100px 50px;
+}
+
+button {
+  box-shadow: none;
+  background: #8EB1C7;
+  border: 0;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: #242038;
+  height: 50px;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 10px;
+/*   margin: 10px; */
+  margin: 40px 100px 0px ;
+  }
+
+button:hover {
+  background: #242038;
+  color: #C1CAD6;
+/*   font-size: 1.8em; */
+  font-weight: bold;
+}
+
+/* #space {
+  background: #586994;
+  border: solid green;
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+ */
+main {
+  background: #586994;
+  margin: 0 auto;
+  width: 90%;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* default List View */
+
+/* Grid View */
+.grid {
+  justify-content: center;
+  align-content: space-around;
+}
+
+.grid h2,
+.grid figcaption {
+  display: none;
+}
+
+p, figcaption, h2, h3 {
+  font-family: sans-serif;
+}
+
+footer {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 50px 0px 10px;
+  background: #586994;
+}
+
+#contact {
+  background: #FEFDFF;
+  margin: 0 30%;
+  padding: 15px;
+}
+
+.submit {
+  margin: 10px;
+}
