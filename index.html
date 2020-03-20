@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         
-        <title>Stephanie Henry</title>
+        <title>Stephanie Henry Portfolio</title>
 
 
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -22,46 +22,114 @@
 
     <body>
        
-        <h1>Stephanie Henry</h1>
+      <header>
+ 
+        <h1> <img class="me" src="img/meresized.png" alt="">Hello! I'm Stephanie Henry. Welcome to my portfolio.</h1>
+        
+        <h2 class="aboutMe">About Me</h2>
+        <p class="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quo beatae nam suscipit vel, necessitatibus et consectetur odit perspiciatis! Veritatis et nemo, quaerat ipsa explicabo distinctio optio eum asperiores totam!</p>
+        
+        <button id="trigger"> Grid / List View </button>
+        
+      <!-- <button id="trigger"> Grid View </button> -->
+      </header>
       
-        <img src="img/me.jpg" alt="Me with Tom">
-       
-        <ul>
-            <li>Reading</li>
-            <li>Cats</li>
-            <li>Games</li>
-        </ul>
-   
+      <!-- <br id="space"></br> -->
+      <!-- <div id="space"></div> -->
+      
+      <main class="grid" id="grid">
+        
+        <figure>
+          <h2>Title</h2>
+           <a href="https://stephaniehenry.github.io/google-doodle/">
+          <img src="img/google_doodle.png" alt="thumbnail of static google doodle image">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </figcaption>
+        </figure>
+        
+         <figure>
+          <h2>Title</h2>
+           <a href="http://picsum.photos/600">
+          <img src="http://picsum.photos/400" alt="Thumb">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi perspiciatis fugiat odio! Rem, fugit aut. Ab dolor recusandae quia, odio nulla quidem velit libero dolorum voluptatem voluptates blanditiis exercitationem.
+          </figcaption>
+        </figure>
+        
+         <figure>
+          <h2>Title</h2>
+           <a href="http://picsum.photos/600">
+          <img src="http://picsum.photos/400" alt="Thumb">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi perspiciatis fugiat odio! Rem, fugit aut. Ab dolor recusandae quia, odio nulla quidem velit libero dolorum voluptatem voluptates blanditiis exercitationem.
+          </figcaption>
+        </figure>
+        
+         <figure>
+          <h2>Title</h2>
+           <a href="http://picsum.photos/600">
+          <img src="http://picsum.photos/400" alt="Thumb">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi perspiciatis fugiat odio! Rem, fugit aut. Ab dolor recusandae quia, odio nulla quidem velit libero dolorum voluptatem voluptates blanditiis exercitationem.
+          </figcaption>
+        </figure>
+        
+         <figure>
+          <h2>Title</h2>
+           <a href="http://picsum.photos/600">
+          <img src="http://picsum.photos/400" alt="Thumb">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi perspiciatis fugiat odio! Rem, fugit aut. Ab dolor recusandae quia, odio nulla quidem velit libero dolorum voluptatem voluptates blanditiis exercitationem.
+          </figcaption>
+        </figure>
+        
+         <figure>
+          <h2>Title</h2>
+           <a href="http://picsum.photos/600">
+          <img src="http://picsum.photos/400" alt="Thumb">
+        </a>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi perspiciatis fugiat odio! Rem, fugit aut. Ab dolor recusandae quia, odio nulla quidem velit libero dolorum voluptatem voluptates blanditiis exercitationem.
+          </figcaption>
+        </figure>
+        
+      </main>
+      
+      <footer>
+        
+        <div id="contact">
+          <h2>Contact Me</h2>
+          <form name="My Contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" required/></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" required/></label>
+            </p>
+      
+            <p>
+              <label>Message: <textarea name="message" required></textarea></label>
+            </p>
+      
+            <p>
+              <input type="file">
+            </p>
+      
+            <div data-netlify-recaptcha="true"></div>
+            <p>
+              <button class="submit" type="submit">Send</button>
+            </p>
+          </form>
+        </div>
+      </footer>
 
-        <footer>
-
-            <!--Contact Form-->
-
-            <form name="My Contact" method="POST" data-netlify="true">
-                <p>
-                  <label>Your Name: <input type="text" name="name" required/></label>   
-                </p>
-                <p>
-                  <label>Your Email: <input type="email" name="email" required/></label>
-                </p>
-                
-                <p>
-                  <label>Message: <textarea name="message" required></textarea></label>
-                </p>
-
-                <p>
-                    <input type="file">
-                </p>
-
-                <div data-netlify-recaptcha="true"></div>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
-              </form>
-                   
-        </footer>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.min.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
         
         <script src="js/scripts.js"></script>
     </body>
