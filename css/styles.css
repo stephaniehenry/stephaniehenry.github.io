@@ -63,6 +63,11 @@ button:hover {
   font-weight: bold;
 }
 
+.gallery {
+  max-width: 100%;
+  height: auto;
+}
+
 /* #space {
   background: #586994;
   border: solid green;
